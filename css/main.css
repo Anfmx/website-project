@@ -94,7 +94,7 @@ h6 {
   font-family: "Myriad Pro Regular";
   font-style: normal;
   font-weight: normal;
-  src: local("Myriad Pro Regular"), url("fonts/MYRIADPRO-REGULAR.woff") format("woff");
+  src: local("Myriad Pro Regular"), url("../fonts/MYRIADPRO-REGULAR.woff") format("woff");
 }
 body,
 html {
@@ -235,7 +235,7 @@ html textarea {
   margin-top: 40px;
 }
 .skills__visual {
-  background: url("images/grey-line.png") left bottom repeat-x;
+  background: url("../images/grey-line.png") left bottom repeat-x;
 }
 .skills__visual img {
   height: 24px;
@@ -279,16 +279,16 @@ html textarea {
   background-color: rgb(124, 199, 196);
 }
 .numbers__block--projects::before {
-  content: url("icons/portfolio.png");
+  content: url("../icons/portfolio.png");
 }
 .numbers__block--hours::before {
-  content: url("icons/clock.png");
+  content: url("../icons/clock.png");
 }
 .numbers__block--feedback::before {
-  content: url("icons/star.png");
+  content: url("../icons/star.png");
 }
 .numbers__block--clients::before {
-  content: url("icons/like.png");
+  content: url("../icons/like.png");
 }
 .numbers__text {
   margin-left: 15px;
@@ -316,7 +316,7 @@ html textarea {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  background: url("icons/eye.png") no-repeat center;
+  background: url("../icons/eye.png") no-repeat center;
   background-size: contain;
   aspect-ratio: 1;
   width: 9%;
