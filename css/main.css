@@ -132,7 +132,7 @@ html textarea {
   padding: 7px;
 }
 
-.nav_list li a:hover {
+.nav__list li a:hover {
   color: rgb(0, 202, 196);
 }
 
